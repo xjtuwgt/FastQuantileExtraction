@@ -2,7 +2,7 @@
 This project is constructed by Scala with sbt.
 
 1. File "QuantileSummary.scala" 
-	1) Extract the summary of data by function: ConstructSummary(data: Array[Float]), output: Array of tuple (v, rmin, rmax) where rmin = minimum rank w.r.t. v, rmax = maximum rank w.r.t. maximum rank
+	1) Extract the summary of data by function: ConstructSummary(data: Array[Float]), output: Array of tuple (v, rmin, rmax) where rmin = minimum rank w.r.t. v, rmax = maximum rank w.r.t. v;	
 	2) For a given value, estimate its quantile in the data by function: quantileEstimation(value: Float)
 	3) For a given quantile, estimate its value in the data
 	4) Given the number of quantiles we want to extract, funtion quantileValueSetEstimation(numOfQuantiles: Int) returns all the quantiles.
