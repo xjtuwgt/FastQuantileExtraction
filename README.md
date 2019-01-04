@@ -1,5 +1,7 @@
 # FastQuantileExtraction
 This project is constructed by Scala with sbt.
+The project implements the paper: 
+Zhang, Q. and Wang, W., 2007, July. A fast algorithm for approximate quantiles in high speed data streams. In Scientific and Statistical Database Management, 2007. SSBDM'07. 19th International Conference on (pp. 29-29). IEEE.
 
 1. File "QuantileSummary.scala" 
 	1) Extract the summary of data by function: ConstructSummary(data: Array[Float]), output: Array of tuple (v, rmin, rmax) where rmin = minimum rank w.r.t. v, rmax = maximum rank w.r.t. v;	
